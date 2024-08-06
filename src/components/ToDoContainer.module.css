@@ -1,0 +1,38 @@
+
+.ToDoContainer{
+  
+  width: 800px;
+  display:flex;
+  border:5px solid red;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  padding:1px;
+  background-color:wheat;
+
+  flex-direction: column;
+  
+
+  .content{
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction:column ; */
+
+    border:3px solid blue;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 30px;
+    padding: 20px;
+    flex-wrap: wrap;
+
+    background-color:greenyellow;
+
+    button{
+      min-width: 80px;
+
+    }
+  }
+}
